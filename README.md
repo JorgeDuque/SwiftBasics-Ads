@@ -36,3 +36,13 @@ end
 ```
 pod install
 ```
+###Step 3. App Delegate
+- import Firebase and GoogleMobileAds in our project's Appdelegate file 
+```
+import Firebase
+import GoogleMobileAds
+```
+- in didFinishLaunchingWithOptions method, add the following line:
+```
+FIRApp.configure()
+```
